@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFAR | Travel Agency</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="safarhhomepage.css">
+     <link rel="icons" href="images/Safar-removebg-preview.png">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>S</span>afar</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your E-Mail">
+        <input type="password" class="box" placeholder="Enter your Password">
+        <input type="submit" value="Login Now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember Me</label>
+        <p>forget password? <a href="#">Click here</a></p>
+        <p>Don't have an Account? <a href="#">Register Now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places in Maharashtra , With Us</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-2.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="Place name">
+            </div>
+            <div class="inputBox">
+                <h3>How Many</h3>
+                <input type="number" placeholder="Number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrivals Date</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving Date</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/mahabaleshwar.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Mahabaleshwar-Lonavala </h3>
+                <p> 4 Day Trip from Pune : Mahabaleshwar (2N) - Lonavala (1N)</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹13499 <span>₹14999</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/sampurn-kokan-darshan.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Best Of Konkan </h3>
+                <p>6 Day Trip from Pune : Ratnagiri - Ganpatipule - Chiplun - Dapoli - Harihareshwar - Alibaug </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹18999 <span>₹19999</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img gadkille.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Gadkille Safari </h3>
+                <p>6 Days Trip From Pune : Sinhagad - Raigad - Pratapgad - Panhala - Vasota - Janjira</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹13999 <span>₹14999</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Family-Getaway-in-Lavasa-20102016.webp" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>A Family Getaway in Lavasa</h3>
+                <p>3 Days Trip From Pune : Full Premium Package in Lavasa City</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹11999 <span>₹12499</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Tadoba National Park.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Tadoba-Nagpur Package </h3>
+                <p>5 Days Trip From Pune : Tadoba National Park - Nagpur - Ramtek Fort Temple</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹16499 <span>₹17999</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/ajanta-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Ajanta Ellora  </h3>
+                <p>4 Days Trip From Pune : Ajanta Caves - Aurangabad</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹12999 <span>₹134999</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>premium hotels</h3>
+            <p>Exclusive and Premium Hotels with all services such as WiFi , Swiming Pool , Gym's , garden etc.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food</h3>
+            <p>Due to COVID-19 we take all safty of Tourist's and Provide safe and Healty Food.</p>
+            </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+        <p>All Precaution are completed by Travel's but Be Safe from Thief</p>
+    </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the Maharashtra</h3>
+            <p>We Give All Packages in Maharashtra With Premium Quality</p>
+            </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest & Safe travel</h3>
+            <p>Fastest And Safe Travel Due to COVID-19 we take care of your Health And Travel</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Maharashtra is Know for adventures..Beacuse of Gadkille and our Travel have Premium Packages of Gadkille safari</p>
+            </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img1.jpg" alt="">
+            <div class="content">
+                <h3>India Gate</h3>
+                <p>India Gate Located In Mumbai</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img2.jpg" alt="">
+            <div class="content">
+                <h3>Raigad Fort</h3>
+                <p>Raigad Fort is one of the largest Fort Located in Raigad</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img3.jpg" alt="">
+            <div class="content">
+                <h3>Kaspathar</h3>
+                <p>Kaspathar is Land of more than 100+ Follower's Located Near Satara</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img4.jpg" alt="">
+            <div class="content">
+                <h3>Mandavi Beach</h3>
+                <p>Mandavi Beach is one of Beacutifull Beach Located in Ratnagiri</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img5.jpg" alt="">
+            <div class="content">
+                <h3>Pachgani</h3>
+                <p>Pachgani is Popular Hill Station Near Satara</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Sindhudurga</h3>
+                <p>Sindhudurga Is Famous City For Beach and Fishing</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img7.jpg" alt="">
+            <div class="content">
+                <h3>Matheran</h3>
+                <p>Matheran Is Famous For Hill's Station</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Night Life</h3>
+                <p>Night Life Camp in Lonavala on Hill's</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img8.jpg" alt="">
+            <div class="content">
+                <h3>Khopoli</h3>
+                <p>Khopoli is Popular for Weekend Trip</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/img1.jpg" alt="">
+                    <h3>Prem Kumar</h3>
+                    <p>It was a wonderful experience for us. All your arrangements were up to the mark.
+                        All hotels and transportation arrangements were excellent.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Thank you very much for all your assistance for my safe trip. Your Manger Mahesh was excellent. Will contact you again for my future trips.
+                        Thanks again.</p>
+                   <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Priya sen</h3>
+                    <p> Thanks for organising the Konkan tour for our group. It was very good and everyone enjoyed the trip.
+                        Thanks very much.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>Jay Modi</h3>
+                    <p>I want to thank you, and anyone who helped you, with your excellent service that you gave us.
+                        Our stay at Tadoba was outstanding. The hotel was excellent as were the game drives where we saw 4 tigers!
+                        The driver you also organized for us was a very good driver and we felt very safe driving with him.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Entr Your Name">
+                <input type="email" placeholder="Entre Your EMail">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Entre Your Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/Safar-removebg-preview.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/Paytm_logo.png" alt="" height="80px" width="100px"></div>
+            <div class="swiper-slide"><img src="images/OYO_Rooms_(logo).png" height="100px"></div>
+            <div class="swiper-slide"><img src="images/Ola_Cabs_logo.svg.png" alt="" height="90px" width="111px"></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Solapur Branch</h3>
+            <p>Yashwanti Tower, Near Hotgi road,Solapur 413003</p> 
+        </div>
+        <div class="box">
+            <h3>Another Branch</h3>
+            <a href="#">Pune</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Nagpur</a>
+            <a href="#">Solapur</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">Packages</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> SAFAR </span> | all rights reserved..! </h1>
+
+</section>
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="scriptsafar.js"></script>
+
+</body>
+</html>
